@@ -1,0 +1,92 @@
+div>div>div>div>div>div>div>div>div>div {
+    background: #F2A477;
+    height: 10vh;
+    width: 10vh;
+}
+
+div {
+    background: cadetblue;
+    height: 100vh;
+    width: 100vh;
+}
+
+div>div {
+    background: #F0BC68;
+    height: 90vh;
+    width: 90vh;
+}
+
+div>div>div {
+    background: #C4D7D1;
+    height: 80vh;
+    width: 80vh;
+}
+
+div>div>div>div {
+    background: #8596A6;
+    height: 70vh;
+    width: 70vh;
+}
+
+div>div>div>div>div {
+    background: #F2F2F2;
+    height: 60vh;
+    width: 60vh;
+}
+
+div>div>div>div>div>div {
+    background: #365359;
+    height: 50vh;
+    width: 50vh;
+}
+
+div>div>div>div>div>div>div {
+    background: #F2D8A7;
+    height: 40vh;
+    width: 40vh;
+}
+
+div>div>div>div>div>div>div>div {
+    background: #F2CDC4;
+    height: 30vh;
+    width: 30vh;
+}
+
+div>div>div>div>div>div>div>div>div {
+    background: #ABD3DB;
+    height: 20vh;
+    width: 20vh;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.most-outer>.inner {
+    border: 20px solid black;
+}
+
+.most-inner:hover {
+    background-color: green;
+}
+
+.most-inner::before {
+    content: 'a'
+
+}
+
+.most-inner::after {
+    content: 'z';
+    right: 0;
+    display: block;
+    background-color: red;
+    width: 100%;
+}
