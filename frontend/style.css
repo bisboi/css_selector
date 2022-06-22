@@ -1,0 +1,19 @@
+#root{
+width: 100%;
+height: 100vh;
+background-color: aqua;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    height: 100px;
+
+}
+
+.flex-child{
+    width: 100px;
+    height: 100px;
+    background-color: azure;
+}
